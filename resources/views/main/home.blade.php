@@ -183,7 +183,7 @@
     </div>
 </section>
 
-<section class="newslatter-section">
+<section class="newslatter-section mb-5 pb-5">
     <div class="container">
         <div class="newslatter-inner set-bg" data-setbg="img/newslatter-bg.jpg">
             <div class="ni-text">
@@ -191,7 +191,6 @@
                 <p>Restez informé des derniers cours mis en ligne !</p>
             </div>
             <form action="#" method="POST" class="ni-form">
-                @csrf
                 <input type="text" placeholder="Votre adresse email" name="email">
                 <button type="submit">M'abonner</button>
             </form>

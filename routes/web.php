@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('instructor.curriculum.edit');
+    return view('main.home');
 });
 
